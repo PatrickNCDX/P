@@ -3,7 +3,9 @@
 
 <head>
 	<title>Reservia_OpenClassrooms_PN</title>
-	<script src="https://kit.fontawesome.com/18bb291b9e.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/18bb291b9e.js"></script>
+	<link rel="stylesheet" href="styles.css"/>
+	
 </head>
 
 <body>
@@ -13,9 +15,9 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="#hosting">Hébergements</a></li> 
-				<li><a href="#activity">Activités</a></li>
-				<li><a href="#signup">S'inscrire</a></li>
+				<li><a href="#hosting" data-active="true">Hébergements</a></li> 
+				<li><a href="#activity" data-active="false">Activités</a></li>
+				<li id="headerSignup"><a href="#signup">S'inscrire</a></li>
 			</ul>
 
 		</nav>
@@ -37,7 +39,20 @@
 					<span class="searchFormButton">Recherche</span>
 				</button>
 			</form>
-		</section>
+			<div class="searchFilters">
+				<h2>Filtres</h2>
+					<div><i class="fas fa-money-bill-wave"></i> Économique</div>
+					<div><i class="fas fa-child"></i> Familial</div>
+					<div><i class="fas fa-heart"></i> Romantique</div>
+					<div><i class="fas fa-dog"></i> Animaux autorisé</div>
+			</div>
+			<div class="searchResult">
+				<div class="searchResultWarpIcon">
+					<i class="fas fa-info"></i>
+				</div>
+				<p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+			</div>
+		</section> 
 	</main>
 
 </body>
