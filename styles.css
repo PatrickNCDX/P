@@ -1,0 +1,24 @@
+html {
+    font-family: 'Raleway', sans-serif;  
+    /* Change la police*/
+}
+
+body {
+    margin: 0;
+     /*reset en début de feuille de style, ce qui permet de ne plus avoir d'espace entre les éléments html et body*/
+}
+
+a {
+    color: inherit;
+    text-decoration: none; 
+    /*retire la couleur bleu par défauts et l'effet souligé*/
+}
+
+ul {
+    list-style: none;
+    display: inline-flex; 
+    padding: 0;
+    margin: 0;
+    /*Enleve les puce de toute les listes et aligne les choix des listes*/
+}
+
