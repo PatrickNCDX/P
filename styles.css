@@ -19,6 +19,51 @@ ul {
     display: inline-flex; 
     padding: 0;
     margin: 0;
-    /*Enleve les puce de toute les listes et aligne les choix des listes*/
+    /*Enleve les puces de toutes les listes et aligne verticalement les choix des listes*/
 }
 
+
+.header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas:"logo . navbar button";
+    display: grid;
+    max-width: 1440px;
+    margin: auto;
+    }
+
+    .header nav {
+        grid-area: navbar;
+    }
+
+    .header ul {
+        margin: 1.2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    .header li {
+        padding: 0 1.2rem;
+    }
+
+    .header nav a {
+        padding: 1rem 0;
+        font-weight: 500;
+        text-align: center;
+        border-bottom: 3px;
+    }
+
+    .header nav a:hover {
+        border-top: 3px solid #0065fc;
+        color: #0065fc;
+    }
+
+    .header nav a[data-active="true"] {
+        border-top: 3px solid #0065fc;
+        color: #0065fc;
+    }
+
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
