@@ -61,6 +61,15 @@ ul {
         color: #0065fc;
     }
 
+    #headerSignup {
+        grid-area: button;
+    }
+
+    #headerSignup a {
+        color: #0065FC;
+        font-weight: 700;
+    }
+
 .main {
     max-width: 1440px;
     margin: auto;
