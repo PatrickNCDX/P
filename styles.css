@@ -24,6 +24,7 @@ ul {
     }
 
     /* Début Header */
+
 .header {
         grid-template-columns: auto 1fr auto auto;
         grid-template-areas:"logo . navbar button";
@@ -77,9 +78,11 @@ ul {
         padding: 0 2rem;
         box-sizing: border-box;
     }
+
     /* Fin Header */
 
     /* Début Search */
+
     .search h1 {
         margin-bottom: 0.5em;
     }
@@ -187,9 +190,11 @@ ul {
         justify-content: center;
         color: #0065FC;
     }
+
     /* Fin Search */
 
     /* Début Hosting */
+
     .hostingMain {
 
         display: grid;
@@ -311,13 +316,117 @@ ul {
         border-radius: 1.5rem;
         background-color: #F2F2F2;
     }
+
+    /* Fin Hosting */
+
+    /* Début Activité */
+
+    .activity {
+        display: grid;
+        margin: 4rem 0;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+        column-gap: 2rem;
+    }
+
+    .activity h2 {
+        grid-column: 1 / -1;
+    }
+
+    .activity a {
+        display: flex;
+        border-radius: 1rem;
+        flex-direction: column;
+        box-shadow: 0 0 20px #0000002e;
+    }
+
+    .activity h3 {
+        margin: 1.2rem 1.5rem;
+    }
+
+    .activityWrapimg {
+        position: relative;
+        flex: 1;
+    }
+
+    .activity img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    #ActUn {
+        grid-row: 2/7;
+        grid-column: 1/2;
+    }
+
+    #ActDeux {
+        grid-column: 2/3;
+        grid-row: 2/5;
+    }
+
+    #ActTrois {
+        grid-column: 3/4;
+        grid-row: 2/7;
+    }
+
+    #ActQuatre {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    #ActCinq {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    #ActSix {
+        grid-column: 4/5;
+        grid-row: 4/7;
+    }
+
+    /* Fin Activité */
+
+    /* Début Footer*/
+
+    .footer {
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    
+    .footerWrapper {
+        display: flex;
+        margin: auto;
+        padding: 0 2rem;
+        width: 1440px;
+        max-width: 100%;
+        box-sizing: border-box; 
+    }
+    
+    .footerWrapperColumn {
+        padding: 2rem 2rem;
+    }
+    
+    .footer ul {
+        display: block;
+    }
+    
+    .footer ul li {
+        margin: 1rem 0;
+    }
+
+    /* Fin Footer*/
+
+    /* Début Responsive */
+
     @media screen and (min-width: 1100px) {
 
         .hosting {
             display: grid;
-            column-gap: 2rem;
             grid-template-columns: 6fr 3fr;
+            column-gap: 2rem;
         } 
     }
-    /* Fin Hosting */
-    
+
+    /* Fin Responsive */
