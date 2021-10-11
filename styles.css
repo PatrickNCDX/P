@@ -25,7 +25,7 @@ body {
         align-items: center;
   }
   .headerNavLink {
-        padding: 2rem;
+        padding: 3rem;
         font-weight: 500;
         text-align: center;
         border-top: 3px transparent solid;
@@ -39,7 +39,7 @@ body {
   }
   .headerSignup {
         display: flex;
-        padding: 2rem;
+        padding: 3rem;
         grid-area: button;
         font-weight: 600;
         align-items: center;
@@ -76,7 +76,7 @@ body {
         margin-left: 0.1rem;
   }
   .searchFormSearchinput {
-    padding: 0 1.5rem;
+        padding: 0 1.5rem;
         width: 14rem;
         box-sizing: border-box;
         border-right: none;
@@ -128,7 +128,7 @@ body {
   }
   .searchFiltersFilter:hover {
         transform: scale(1.015);
-        background-color: #e6e7e9;
+        background-color: #ebeff6;
         color:#0065FC;
   }
   .searchFiltersFilterWrapicon {
