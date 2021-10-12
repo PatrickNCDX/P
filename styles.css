@@ -10,7 +10,7 @@
       .header {
         display: grid;
         margin: auto;
-        max-width: 1920px;
+        max-width: 1440px;
         align-items: center;
       }
       .headerImg {
@@ -25,9 +25,8 @@
         align-items: center;
       }
       .headerNavLink {
-        margin: 1rem;
         padding: 3rem;
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         border-top: 3px transparent solid;
         border-bottom: 3px transparent solid;
@@ -40,7 +39,6 @@
       }
       .headerSignup {
         display: flex;
-        margin: 1rem;
         padding: 3rem;
         grid-area: button;
         font-weight: 600;
@@ -53,7 +51,7 @@
       .main {
         margin: auto;
         padding: 0 2rem;
-        max-width: 1920px;
+        max-width: 1440px;
         box-sizing: border-box;
       }
 /*Début Search*/
@@ -324,14 +322,14 @@
 /*Début Footer*/
   .footer {
         margin: auto;
-        width: 1920px;
+        width: 1440px;
         background-color: #F2F2F2;
   }
   .footerColumnwrapper {
         display: flex;
         margin: auto;
         padding: 0 2rem;
-        width: 1920px;
+        width: 1440;
         max-width: 100%;
         box-sizing: border-box;
   }
@@ -388,13 +386,14 @@
         border-bottom-color: #0065FC;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) and (min-width: 350px) {
     .searchForm {
         display: flex;
         width: 100%;
+        min-width: 350px;
     }
     .searchFormSearchinput {
-        flex: 1;
+        width: 60%;
     }
     .searchFormSubmitinput{
         border-radius: 12px;
@@ -422,7 +421,7 @@
         display: none;
     }
   }
-  @media (max-width: 1440px) {
+  @media screen and (max-width: 1440px) and (min-width: 350px) {
     .hosting {
         grid-template-columns: 1fr;
         row-gap: 2rem;
@@ -448,29 +447,29 @@
         grid-column: 1/-1;
     }
   }
-  @media (min-width: 925px) {
+  @media screen and (min-width: 925px) {
     .hostingMain {
         grid-template-columns: repeat(3, 1fr);
     }
   }
-  @media (max-width: 925px) and (min-width: 650px) {
+  @media screen and (max-width: 925px) and (min-width: 650px) {
     .hostingMain {
         grid-template-columns: 1fr 1fr;
     }
   }
-  @media (max-width: 650px) {
+  @media screen and (max-width: 650px) {
     .hostingMain {
         grid-template-columns: 1fr;
         background-color: white;
     }
   }
-  @media (max-width: 1000px) {
+  @media screen and (max-width: 1000px) and (min-width: 350px) {
     .hostingPopular {
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(3, 9rem);
     }
   }
-  @media (min-width: 1100px) {
+  @media screen and (min-width: 1100px) {
     .activity {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
@@ -500,28 +499,28 @@
         grid-row: 4/7;
     }
   }
-  @media (max-width: 1100px) {
+  @media screen and (max-width: 1100px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 12rem 12rem;
     }
   }
-  @media (max-width: 925px) {
+  @media screen and (max-width: 925px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto 12rem 12rem 12rem;
     }
   }
-  @media (max-width: 650px) {
+  @media screen and (max-width: 650px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: 1fr;
         grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
   }
-  @media (max-width: 750px) {
+  @media screen and (max-width: 750px) {
     .footerColumnwrapper {
         flex-direction: column;
         padding: 2rem;
@@ -544,4 +543,11 @@
         margin-bottom: 0;
     }
   }
+  @media screen and (max-width: 1500px) and (min-width: 350px) {
+    .footer{
+      margin: auto;
+      width: 100%;
+    }
+  }
+    
 /*Fin Responsive*/
