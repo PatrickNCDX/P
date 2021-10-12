@@ -447,29 +447,29 @@
         grid-column: 1/-1;
     }
   }
-  @media screen and (min-width: 925px) {
+  @media (min-width: 925px) {
     .hostingMain {
         grid-template-columns: repeat(3, 1fr);
     }
   }
-  @media screen and (max-width: 925px) and (min-width: 650px) {
+  @media (max-width: 925px) and (min-width: 650px) {
     .hostingMain {
         grid-template-columns: 1fr 1fr;
     }
   }
-  @media screen and (max-width: 650px) {
+  @media (max-width: 650px) {
     .hostingMain {
         grid-template-columns: 1fr;
         background-color: white;
     }
   }
-  @media screen and (max-width: 1000px) and (min-width: 350px) {
+  @media (max-width: 1000px) and (min-width: 350px) {
     .hostingPopular {
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(3, 9rem);
     }
   }
-  @media screen and (min-width: 1100px) {
+  @media (min-width: 1100px) {
     .activity {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
@@ -499,28 +499,28 @@
         grid-row: 4/7;
     }
   }
-  @media screen and (max-width: 1100px) {
+  @media (max-width: 1100px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 12rem 12rem;
     }
   }
-  @media screen and (max-width: 925px) {
+  @media (max-width: 925px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto 12rem 12rem 12rem;
     }
   }
-  @media screen and (max-width: 650px) {
+  @media (max-width: 650px) {
     .activity {
         row-gap: 2rem;
         grid-template-columns: 1fr;
         grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
   }
-  @media screen and (max-width: 750px) {
+  @media (max-width: 750px) {
     .footerColumnwrapper {
         flex-direction: column;
         padding: 2rem;
@@ -543,7 +543,7 @@
         margin-bottom: 0;
     }
   }
-  @media screen and (max-width: 1440px) and (min-width: 350px) {
+  @media (max-width: 1440px) and (min-width: 350px) {
     .footer{
       margin: auto;
       width: 100%;
