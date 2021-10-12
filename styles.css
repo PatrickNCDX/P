@@ -10,11 +10,12 @@
       .header {
         display: grid;
         margin: auto;
-        max-width: 1440px;
+        max-width: 1920px;
         align-items: center;
       }
       .headerImg {
         grid-area: logo;
+        margin: auto;
         padding: 0 2rem;
         height: 3rem;
       }
@@ -24,8 +25,9 @@
         align-items: center;
       }
       .headerNavLink {
+        margin: 1rem;
         padding: 3rem;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
         border-top: 3px transparent solid;
         border-bottom: 3px transparent solid;
@@ -38,6 +40,7 @@
       }
       .headerSignup {
         display: flex;
+        margin: 1rem;
         padding: 3rem;
         grid-area: button;
         font-weight: 600;
@@ -50,7 +53,7 @@
       .main {
         margin: auto;
         padding: 0 2rem;
-        max-width: 1440px;
+        max-width: 1920px;
         box-sizing: border-box;
       }
 /*Début Search*/
@@ -320,14 +323,15 @@
 
 /*Début Footer*/
   .footer {
-        width: 100%;
+        margin: auto;
+        width: 1920px;
         background-color: #F2F2F2;
   }
   .footerColumnwrapper {
         display: flex;
         margin: auto;
         padding: 0 2rem;
-        width: 1440px;
+        width: 1920px;
         max-width: 100%;
         box-sizing: border-box;
   }
