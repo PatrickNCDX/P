@@ -386,7 +386,7 @@
         border-bottom-color: #0065FC;
     }
   }
-  @media screen and (max-width: 600px) and (min-width: 350px) {
+  @media screen and (max-width: 600px) and (min-width: 300px) {
     .searchForm {
         display: flex;
         width: 100%;
@@ -421,7 +421,7 @@
         display: none;
     }
   }
-  @media screen and (max-width: 1440px) and (min-width: 350px) {
+  @media screen and (max-width: 1440px) and (min-width: 300px) {
     .hosting {
         grid-template-columns: 1fr;
         row-gap: 2rem;
@@ -463,10 +463,19 @@
         background-color: white;
     }
   }
-  @media (max-width: 1000px) and (min-width: 350px) {
+  @media (max-width: 1000px) and (min-width: 601px) {
     .hostingPopular {
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(3, 9rem);
+    }
+  }
+  @media (max-width: 600px) and (min-width: 300px) {
+    .hostingPopular {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(3, 9rem);
+        margin: auto;
+        margin-left: -15%;
+        width: 110%;
     }
   }
   @media (min-width: 1100px) {
@@ -526,7 +535,7 @@
         padding: 2rem;
     }
     .footerColumnwrapperColumn {
-        width: 100%;
+        width: 115%;
         padding: 0;
         margin: 1rem 0;
     }
@@ -543,10 +552,10 @@
         margin-bottom: 0;
     }
   }
-  @media (max-width: 1440px) and (min-width: 350px) {
+  @media (max-width: 1440px) and (min-width: 300px) {
     .footer{
       margin: auto;
-      width: 100%;
+      width: 115%;
     }
   }
     
