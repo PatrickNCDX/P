@@ -347,7 +347,7 @@
 /*Fin Footer*/
 
 /*Début Responsive*/
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 801px) {
     .header {
         grid-template-columns: auto 1fr auto auto;
         grid-template-areas: "logo . navbar button";
@@ -359,7 +359,7 @@
         border-top: 3px solid #0065FC;
     }
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     .header {
         grid-template-columns: auto 1fr auto;
         grid-template-areas: "logo . button" "navbar navbar navbar";
