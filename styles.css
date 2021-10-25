@@ -347,7 +347,7 @@
 /*Fin Footer*/
 
 /*Début Responsive*/
-  @media screen and (min-width: 601px) {
+  @media screen and (min-width: 700px) {
     .header {
         grid-template-columns: auto 1fr auto auto;
         grid-template-areas: "logo . navbar button";
@@ -359,7 +359,7 @@
         border-top: 3px solid #0065FC;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .header {
         grid-template-columns: auto 1fr auto;
         grid-template-areas: "logo . button" "navbar navbar navbar";
@@ -467,6 +467,9 @@
     .hostingPopular {
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(3, 9rem);
+        margin: 0;
+        margin-left: -2rem;
+        width: 100%;
     }
   }
   @media (max-width: 600px) and (min-width: 300px) {
@@ -474,8 +477,8 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(3, 9rem);
         margin: 0;
-        margin-left: -10%;
-        width: 104%;
+        margin-left: -2rem;
+        width: 100%;
     }
   }
   @media (min-width: 1100px) {
